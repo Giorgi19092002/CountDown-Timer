@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(erol-ahmed-d3pTF3r_hwY-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+h1{
+    color: #000;
+    font-size: 65px;
+    text-align: center;
+}
+
+.countdown-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    font-size: 40px;
+    gap: 30px;
+    color: #000;
+}
+
+.countdown-container span{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.countdown-container p{
+    text-align: center;
+    font-size: 50px;
+}
